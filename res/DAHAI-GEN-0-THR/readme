@@ -1,0 +1,23 @@
+通用模型（实时化）v4.0
+
+训练数据：1303.58h(大海，爱智康，轻轻，海风)
+测试数据：9.47h(大海老师) 4h(大海学生),2.74h(海风)
+测试集性能：
+cer
+大海老师：15.11%
+大海学生：30.54%
+海风:17.23%
+
+
+算法测试目录：
+大海老师-/data1/ws57/demo/exp/nnet3/dfsmn_hf_v3_left13/decode_dahai_comm/
+大海学生-/data1/ws57/demo/exp/nnet3/dfsmn_hf_v3_left13/decode_Godeye_student_test/
+海风-/data1/ws57/demo/exp/nnet3/dfsmn_hf_v3_left13/decode_hf_test_hf/
+
+测试数据目录：
+大海老师-/data1/ws57/demo/fbank_pitch/dahai_comm/
+大海学生-/data1/ws57/demo/fbank_pitch/Godeye_student_test/
+海风-/data1/ws57/demo/fbank_pitch/hf_test_hf/
+
+资源出处：
+/share/ASR/online_resource/general/general_v4-lr (axer)
